@@ -3,7 +3,7 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
+import scooper from "../../img/scooper.png";
 import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
 import { themeContext } from "../../Context";
@@ -27,7 +27,9 @@ const Portfolio = () => {
           <img src={Sidebar} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <a href="https://neza-ascooper.vercel.app/">
+          <img src={scooper} alt="nescooper" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
           <img src={MusicApp} alt="" />

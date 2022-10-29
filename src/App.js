@@ -5,7 +5,7 @@ import "./App.css";
 import Experience from "./components/Experience/Experience";
 import Works from "./components/Works/Works";
 import Portfolio from "./components/Portfolio/Portfolio";
-import Testimonial from "./components/Testimonials/Testimonial";
+// import Testimonial from "./components/Testimonials/Testimonial";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
@@ -24,10 +24,10 @@ function App() {
       <Navbar />
       <Intro />
       <Services />
-      <Experience />
-      <Works />
+      <Experience />  
+      {/* <Works /> */}
       <Portfolio />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact />
       <Footer />
     </div>
