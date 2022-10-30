@@ -8,6 +8,7 @@ import HOC from "../../img/hoc.png";
 import barefe from "../../img/baref.png";
 // import tooxtme from "../../img/tooxtme.png"
 import tooxtme from "../../img/tooxtm.png"
+import yoevent from "../../img/yoevent.png"
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -44,8 +45,13 @@ const Portfolio = () => {
           {/* </a> */}
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <a href="https://yo-events-client.vercel.app/">
+          <img src={yoevent} alt="" />
+          </a>
         </SwiperSlide>
+        {/* <SwiperSlide>
+          <img src={HOC} alt="" />
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );
